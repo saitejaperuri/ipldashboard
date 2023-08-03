@@ -1,0 +1,89 @@
+/* Write your CSS here */
+
+.team-matches-container {
+  width: 90%;
+  margin-top: 40px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-container {
+    margin-top: 56px;
+    max-width: 1110px;
+  }
+}
+.team-banner {
+  width: 100%;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  width: 100%;
+}
